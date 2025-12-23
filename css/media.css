@@ -1,0 +1,14 @@
+@media (min-width: 320px) and (max-width: 600px) {
+  .container {
+    width: calc(100vw - 40px);
+    margin: 0;
+    padding: 20px;
+    border-radius: 0;
+  }
+  .container > img {
+    width: 100vw;
+    margin: -20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+}
